@@ -9,6 +9,13 @@ env:
 branchs:
   only:
     - master #指定只有检测到master分支有变动时才执行git 任务
+install:
+  - npm i
+script:
+  - npm run test
+  - npm run build
+after_script:
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./node_modules/.bin/codecov; fi
 deploy:
   provider: pages
   skip-cleanup: true
