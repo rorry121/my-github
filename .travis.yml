@@ -1,0 +1,9 @@
+# .travis.yml
+language: node_js #前端工程所以是JavaScript，编译环境是node_js
+git:
+  depth: 1
+node_js:
+  - 'lts/*'
+branchs:
+  only:
+    - master #指定只有检测到master分支有变动时才执行git 任务
