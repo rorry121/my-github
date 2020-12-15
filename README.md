@@ -1,3 +1,8 @@
+<div align="center">
+[![Build Status](https://travis-ci.org/rorry121/my-github.svg?branch=master)](https://travis-ci.org/rorry121/my-github)
+[![codecov](https://codecov.io/gh/rorry121/my-github/branch/master/graph/badge.svg?token=3NUc1yL1LY)](https://codecov.io/gh/rorry121/my-github)
+</div>
+
 # MyGithub
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
